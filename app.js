@@ -29,7 +29,6 @@ $(document).ready(function(){
   			<div class="card">
 				<div class="card-body">
 					<h6>${data[key].Task}</h6>
-					<button data-id="${key}" class="btn btn-secondary btn-sm edit">Edit</button>
 					<button data-id="${key}" class="btn btn-danger btn-sm delete">Delete</button>
 					<button data-id="${key}" class="btn btn-success btn-sm complete">Completed</button>
 				</div>
